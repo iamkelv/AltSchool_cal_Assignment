@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%
+}
+
+
+.wrapper {
+  display: flex;
+  background: gray;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  flex-direction: column;
+  width: auto;
+  margin: 0 auto;
+}
+
+.dark_body {
+  background: #121212;
+}
+
+.dark_body .top input {
+  background: #121212;
+  border: 1px solid white;
+  color: gainsboro;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.dark_body .body div button {
+  background: black;
+  border: 2px solid white;
+  color: white;
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+
+
+}
+
+input:focus {
+  border: none;
+  outline: none;
+
+}
+
+.header button {
+  width: auto;
+  font-weight: normal;
+  color: gray;
+  font-size: 9px;
+  padding: 2px;
+}
+
+.top {
+  display: flex;
+
+}
+
+.top input {
+  display: flex;
+  border: 2px solid gray;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 5px;
+  height: 20px;
+  text-align: right;
+  /* background: gr; */
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  height: auto;
+}
+
+.body div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body div button {
+  display: flex;
+  width: 40px;
+  margin-top: 2px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+
+}
+
+.prev {
+  display: flex;
+  width: auto !important;
+  font-size: 12px;
+
+}
